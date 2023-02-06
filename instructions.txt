@@ -1,0 +1,31 @@
+Dependencies: 
+	spring web
+	mysql driver
+	loombok
+	validation
+	spring data jpa
+	spring boot devtools
+
+Install lombok
+
+C:\Users\InspiredEnigma12477\.m2\repository\org\projectlombok\lombok\1.18.22
+
+pom.xml
+	edit: 
+
+	---------------------------------------------------------------------------------------------------------
+	
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<!-- Swagger UI -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+	
+
+	---------------------------------------------------------------------------------------------------------
